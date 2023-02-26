@@ -1,6 +1,7 @@
 from lyricsgenius import Genius
+from conf import GENIOUS_TOKEN
 
-token = "m0V_r7JSXoNErub9tLrPSNa7a3MfQYsF2oHsqkOEmysZZm7Bk-fwdLrYNrAVgfqc"
+token = GENIOUS_TOKEN
 genius = Genius(token)
 
 
